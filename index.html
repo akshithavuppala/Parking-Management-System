@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Parking Management System</h1>
+        <nav>
+               
+                <button><a href="#parking-spots" id="parking-spots-link">Parking Spots</a></button>
+                 <button><a href="#vehicles" id="vehicles-link">Vehicles</a></button>
+                <button><a href="#transactions" id="transactions-link">Transactions</a></button>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="parking-spots">
+            <h2>Parking Spots</h2>
+            <div class="parking-spot" data-id="1">Spot 1</div>
+            <div class="parking-spot" data-id="2">Spot 2</div>
+            <div class="parking-spot" data-id="3">Spot 3</div>
+            <!-- Add more parking spots as needed -->
+            <link rel="stylesheet" href="styles.css">
+        </section>
+        <section id="vehicles">
+            <h2>Vehicles</h2>
+            <ul id="vehicle-list">
+                <!-- Vehicle list will be populated dynamically -->
+            </ul>
+            <form id="add-vehicle-form">
+                <label for="vehicle-number">Vehicle Number:</label>
+                <input type="text" id="vehicle-number" required>
+                <input type="submit" value="Add Vehicle">
+            </form>
+        </section>
+        <section id="transactions">
+            <h2>Transactions</h2>
+            <ul id="transaction-list">
+                <!-- Transactions will be populated dynamically -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Parking</p>
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>

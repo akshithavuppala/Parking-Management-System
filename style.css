@@ -1,0 +1,121 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(50, 100, 7);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.ieiworld.com/_upload/news/images/iStock-460640155_1200x628(1).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+button a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.parking-spot {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.parking-spot.occupied {
+  background-color: #f00; /* Red color for occupied spots */
+  color: #fff;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#vehicle-list li {
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#transaction-list li {
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
